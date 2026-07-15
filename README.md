@@ -41,7 +41,9 @@ Sometimes i will add classification of some sort or any additional information i
 
 I will add patterns here when i have time between my studies
 
-
 ### Terms
-1. SoC - Separation of Concerns
+1. SoC - Separation of Concerns, principle of dividing a system into distinct, independent sections, where each module addresses a specific, isolated responsibility or functionality
+
 2. Anemic Class - an anti-pattern where classes act merely as data holders with properties, getters, and setters, but contain no business logic.
+
+3. DI - Dependency injection, design pattern where an object receives its required dependencies from an external source rather than creating them itself.

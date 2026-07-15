@@ -3,6 +3,10 @@ An object represents a row in a database table or document in a collection.
 It contains both data and persistence logic hance a lot of responsibility
 on on entity, db mapping, business logic/model, persistence control.
 
+### Classification
+- Data Source Architectural Pattern
+- anti-pattern
+
 ### Problem
 Allowing developers to interact with database records using simple 
 programming methods instead of writing complex, repetitive SQL statements (ORM).
