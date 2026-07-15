@@ -1,11 +1,11 @@
 # Active Record [anti-pattern] (Fowler) 
-### Problem
-- allowing developers to interact with database records using simple 
-programming methods instead of writing complex, repetitive SQL statements (ORM).
-
-- an object represents a row in a database table or document in a collection.
+An object represents a row in a database table or document in a collection.
 It contains both data and persistence logic hance a lot of responsibility
 on on entity, db mapping, business logic/model, persistence control.
+
+### Problem
+Allowing developers to interact with database records using simple 
+programming methods instead of writing complex, repetitive SQL statements (ORM).
 
 ### Notes:
 - I think its more anti-pattern than pattern, entity that saves itself do sound bad.
