@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "strict": true,
+    "noEmit": true,
+    "preserveWatchOutput": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": [
+      "node"
+    ]
+  }
+}

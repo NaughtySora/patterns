@@ -1,0 +1,21 @@
+{
+  "name": "patterns",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "programming patterns",
+  "main": "main.js",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "pattern",
+    "programming",
+    "abstraction"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "devDependencies": {
+    "c8": "^11.0.0",
+    "typescript": "^6.0.3"
+  }
+}
