@@ -31,7 +31,7 @@ Some of them usually work together, you will frequently see that one pattern use
 they cooperate.
 There are standalone patterns as well.
 
-But as good to learn patterns, there is an absolute need to learn a anti-patterns as well,
+But as good to learn patterns, there is an absolute need to learn anti-patterns as well,
 they teach you common mistakes people made.
 
 Sometimes pattern can become an anti-pattern.
