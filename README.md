@@ -40,3 +40,8 @@ Each pattern will have its only notes with some 'official' description as well a
 Sometimes i will add classification of some sort or any additional information i find interesting.
 
 I will add patterns here when i have time between my studies
+
+
+### Terms
+1. SoC - Separation of Concerns
+2. Anemic Class - an anti-pattern where classes act merely as data holders with properties, getters, and setters, but contain no business logic.

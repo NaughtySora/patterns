@@ -1,6 +1,6 @@
 # Abstract Factory (GoF)
 ### Problem
-provide an interface for creating families of related or 
+- provide an interface for creating families of related or 
 dependent objects without specifying how object being created.
 
 ##### Classification 
