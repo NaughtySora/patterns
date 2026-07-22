@@ -47,3 +47,8 @@ I will add patterns here when i have time between my studies
 2. Anemic Class - an anti-pattern where classes act merely as data holders with properties, getters, and setters, but contain no business logic.
 
 3. DI - Dependency injection, design pattern where an object receives its required dependencies from an external source rather than creating them itself.
+
+4. ADT - Algebraic Data Types, a composite data type using mathematical theory and 
+follow algebraic properties like multiplication and addition referred as Product Types (AND)
+and Sum Types (OR).
+The number of possible values of a type can be calculated using basic arithmetic, could also be referred as SEMIRING.
