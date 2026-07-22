@@ -49,6 +49,6 @@ several analog or digital input signals and
 forwards it to a single output line
 
 The MUX is basically:
-if(operation == ADD) use adder
-if(operation == AND) use AND circuit
-if(operation == XOR) use XOR circuit
+if(operation == ADD) use adder.\
+if(operation == AND) use AND circuit.\
+if(operation == XOR) use XOR circuit.
