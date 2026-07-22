@@ -5,6 +5,7 @@ Combining simple gates into circuits with higher-level behavior.
 Two AND gates detect two possible ways to create a carry.
 The OR gate combines these cases into one CARRY output.
 The result is a larger circuit built from smaller primitive gates.
+```
         +---------+
 A ------|         |
 B ------|   AND   |----+
@@ -20,9 +21,11 @@ B ------|   AND   |----+
 S1 -----|         |----+
 Cin ----|   AND   |
         +---------+
+```
 
 #### ALU
 Many arithmetic circuits + multiplexer
+```
                  A
                  |
                  |
@@ -39,6 +42,7 @@ Many arithmetic circuits + multiplexer
              +-------+
 Control ---->|  MUX  |---- Result
              +-------+
+```
 
 A multiplexer (MUX) is an electronic device that selects one of 
 several analog or digital input signals and 
