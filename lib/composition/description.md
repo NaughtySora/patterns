@@ -73,14 +73,14 @@ evaluates fn1 first and passes its result to fn2
 compose(fn2, fn1)(data)
 ```
 
-But i prefer use right-to-left and call it compose.\
+But i prefer use right-to-left and call it compose.
 
 Right-to-left is readable and convenient, calling it compose 
 reflects intent better than pipe.
 
 #### function can be staged or fused:
 - Staged composition - processing happens in global stages,
-the whole dataset moves from stage to stage
+the whole dataset moves from stage to stage.
 
 - Fused composition - operations are combined 
-into one per-element transformation
+into one per-element transformation.
