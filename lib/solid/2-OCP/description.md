@@ -17,7 +17,7 @@ for example, node:fs and node:fs/promises.
 The semantic versioning x.y.z  works the same way.
 - x is major version / breaking changes.
 - y minor update.
-- z bug fixes.
+- z bug fixes.\
 So application that uses 2.y.z will always work across all y versions.
 And only when it needs to move to new x version like 3.y.z it might need 
 to change some code / adapt new interfaces/changes.
