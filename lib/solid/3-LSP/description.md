@@ -19,11 +19,11 @@ Any Abstraction can be substituted while testing.
 I usually use mock repositories for testing.
 
 #### Example
-I love example of JS prototypes and common interfaces.
+I love example of JS prototypes and common interfaces.\
 Each js entity either or both has in its prototype chain an Object and some common
-methods like toString, valueOf and etc.
-So you usually can be sure that using anything.toString will return a string
-Event if object has no defined toString it will probably have one from Object.prototype.
+methods like toString, valueOf and etc.\
+So you usually can be sure that using anything.toString will return a string.\
+Even if object has not defined toString it will probably have one from Object.prototype.
 
 #### Additional
 Sometimes you want to break this principal, go for it if you know what your doing.
@@ -36,8 +36,8 @@ naming for methods.
 
 It was never designed to substitute them.
 
-HmacSignature is for general signature generation.
-ISCSignature is for interservice http communication,
+- HmacSignature is for general signature generation.
+- ISCSignature is for interservice http communication,
 narrowed/specific use.
 
 They share the same naming for methods, but completely different usage.
