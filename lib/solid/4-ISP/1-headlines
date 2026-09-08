@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cat ./description.md | grep "#" | uniq | sort
