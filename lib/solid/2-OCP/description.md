@@ -11,7 +11,7 @@ It reflects in many different programming corners.
 From interface/contract programming to libraries with backward and forward compatibilities.
 
 You can see languages and platforms, for example Nodejs, preserve
-old apis and adds new api for the same functionality.
+old apis and add new api for the same functionality.
 for example, node:fs and node:fs/promises.
 
 The semantic versioning x.y.z  works the same way.
