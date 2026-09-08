@@ -16,8 +16,6 @@ Related to GRASP low-coupling and high-cohesion, when you create many
 small distinct abstractions, making them interact to build bigger abstractions and
 connect abstractions without seeing its internal structure and logic.
 
-Connected to Law of Demeter (don't talk to strangers)
-
 #### Example - shell program
 Search a file and return all headlines
 get distinct lines and sort them alphabetically.
