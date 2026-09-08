@@ -16,7 +16,7 @@ As soon as you leave, different people need to maintain this codebase and carry
 its legacy.
 
 2. Using SRP
-Introduces code duplication, which can be solved with
+- Introduces code duplication, which can be solved with
 shared modules, which can also introduce shared logic and same problems + overhead of keeping
 few interfaces and maintain them, but overall it will require less codebase ownership and
 cognitive load on developers. 
