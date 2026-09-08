@@ -22,14 +22,14 @@ get distinct lines and sort them alphabetically.
 
 Logic compose of 4 smaller programs with district small functionality.
 
-cat - concatenate files and print on the standard output
-grep - prints lines that match patterns
-uniq - filters lines of text
-sort - sorts files of text
+1. cat - concatenate files and print on the standard output.
+2. grep - prints lines that match patterns.
+3. uniq - filters lines of text.
+4. sort - sorts files of text.
 
 #### Example - array processing js
 process array of numbers 1,2,3,4.
 
-filter - remove odd numbers from array.
-map - make a square of a natural numbers.
-sort - sort number from bigger to smaller.
+1. filter - remove odd numbers from array.
+2. map - make a square of a natural numbers.
+3. sort - sort number from bigger to smaller.
