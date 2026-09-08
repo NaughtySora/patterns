@@ -4,14 +4,19 @@
 #### description 
 - Clients must not depend on unused interfaces or methods.
 
-Tells us about structuring abstractions. 
-Do not create god classes and explicitly define behavior and intent.
-Its about modules and composition.
+#### Notes
+Tells us about structuring abstractions and architecture.
+
+Do not create god classes and explicitly 
+define behavior and intent of abstraction.
+
 Close to UNIX philosophy about composing programs with smaller ones.
-its also related to GRASP low-coupling and high-cohesion, when you create many
+
+Related to GRASP low-coupling and high-cohesion, when you create many
 small distinct abstractions, making them interact to build bigger abstractions and
 connect abstractions without seeing its internal structure and logic.
-Also close to law of demeter (don't talk to strangers)
+
+Connected to Law of Demeter (don't talk to strangers)
 
 #### Example - shell program
 Search a file and return all headlines
