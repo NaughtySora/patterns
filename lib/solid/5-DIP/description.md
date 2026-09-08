@@ -3,61 +3,31 @@
 #### description 
 High-level modules should rely on abstractions rather than concrete details.
 
+#### Notes
 Describes relations in application architecture.
-Its again closely related to rest.
+Its again closely related to the rest of SOLID principals.
 
 High and low abstraction means high abstraction uses lower ones.
 Lower is smaller part of a big (high) abstraction.
-High cause it usually lays closer to client/domain logic.
+High usually lays closer to client/domain logic.
 
-for example:
-tcp socket -> connection -> database connection -> repository -> user service
+More abstraction close to hardware, drivers, os, the more its classified as "low"
 
-in this example tcp socket is low level abstraction, the close it to hardware, drivers, os,
-etc the more lower it.
-Lower | High is abstract and related terms.
-i have only 1 term, it can't be low or high, i need pivot to measure its impact and position
-in the system.
-
-socket is low for above example, but its pretty high for hardware perspective.
+Lower and High is abstract terms.
+You need pivot to measure its impact and position in the system, 
+to tell what is low and what is high.
 
 The Dependency Inversion describes that high(upper) abstractions have to communicate
 through interfaces rather then direct communication.
+It means high abstraction should depend on interfaces, methods, signatures
+and not concrete abstractions and internal structure.
 
-what does it mean?
-In this example i use db interface with method insert.
-i have an interface that db entity has to have insert async method
-with particular argument type and return type.
-Now i can use both mongodb and postgres to insert the user, the upper
-abstraction doesn't know where user stored, it only knows
-it will insert some fields and get back unique identifier.
-In some languages you need explicitly make interface for this, js
-can use duck typing, use language specific methods to implement the same
-idea, do not copy the same example across languages.
+Connected to Law of Demeter (don't talk to strangers)
 
-```js
-class Postgres {
-  async insert(payload){
-    // ...
-    return id;
-  }
-}
+#### Example
+In this example tcp socket is low level abstraction, and user repository is high.
+User repository should not know about tcp, connection, retries, pools, networks, etc.
 
-class Mongo {
-  async insert(payload){
-    // ...
-    return id;
-  }
-}
+tcp socket -> connection -> database connection -> repository -> user service
 
-class UserRepository {
-  constructor(db){
-    this.db = db;
-  }
-
-  async create(payload){
-    return await this.db.insert(payload);
-  }
-}
-
-```
+socket is low for above example, but its pretty high for hardware perspective.
