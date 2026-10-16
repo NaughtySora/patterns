@@ -1,1 +1,0 @@
-Assign a responsibility to the class that has the most information needed to fulfill it.
