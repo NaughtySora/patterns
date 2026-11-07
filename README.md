@@ -52,3 +52,6 @@ I will add patterns here when i have time between my studies
 follow algebraic properties like multiplication and addition referred as Product Types (AND)
 and Sum Types (OR).
 The number of possible values of a type can be calculated using basic arithmetic, could also be referred as SEMIRING.
+
+5. Law of Demeter (LoD) - Don't talk to strangers. 
+Communicate between objects should be restricted only to objects public interfaces.
