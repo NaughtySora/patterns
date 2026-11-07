@@ -11,13 +11,13 @@ It reflects in many different programming corners.
 From interface/contract programming to libraries with backward and forward compatibilities.
 
 You can see languages and platforms, for example Nodejs, preserve
-old apis and adds new api for the same functionality.
+old apis and add new api for the same functionality.
 for example, node:fs and node:fs/promises.
 
 The semantic versioning x.y.z  works the same way.
-x is major version / breaking changes.
-y minor update.
-z bug fixes.
+- x is major version / breaking changes.
+- y minor update.
+- z bug fixes.\
 So application that uses 2.y.z will always work across all y versions.
 And only when it needs to move to new x version like 3.y.z it might need 
 to change some code / adapt new interfaces/changes.
